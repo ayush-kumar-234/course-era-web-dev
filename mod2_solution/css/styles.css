@@ -3,22 +3,24 @@ h1 {
     text-align: center;
 }
 
-p {
-    width: 30%;
-    border: 2px solid black;
+div#main-course {
+    width: 20%;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
     height: 20px;
     text-align: center;
+    float: right;
 }
 
-p.chicken {
+div.chicken {
     background-color: red;
 }
 
-p.salmon {
+div.salmon {
     background-color: blue;
 }
 
-p.noodles {
+div.noodles {
     background-color: green;
 }
 
@@ -27,6 +29,7 @@ div.content {
     background-color: grey;
     height: 100px;
     text-align: left;
+    margin: 10px;
 }
 
 /* Simple Responsive Framework. */
@@ -38,7 +41,7 @@ div.content {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+  /* border: 1px solid green; */
   }
   .col-lg-1 {
     width: 8.33%;
@@ -82,7 +85,7 @@ div.content {
 @media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .col-md-1 {
     width: 8.33%;
@@ -126,7 +129,7 @@ div.content {
 @media (min-width: 768px) and (max-width: 949px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
   .col-sm-1 {
     width: 8.33%;
@@ -170,7 +173,7 @@ div.content {
 @media (max-width: 767px) {
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: left;
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
   }
   .col-xs-1 {
     width: 8.33%;
